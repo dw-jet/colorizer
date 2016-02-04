@@ -4,7 +4,7 @@ Colorizer is a ruby gem that adds a splash of color to terminal output.
 
 ## Installation
 1. Clone this repo
-2. Run `gem install colorizr-0.0.2.gem` from the directory you cloned.
+2. Run `gem install colorizr-0.0.3.gem` from the directory you cloned.
 
 ## Useage
 To use the gem simply require it at the top of your ruby code.
