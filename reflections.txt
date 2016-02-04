@@ -1,0 +1,7 @@
+1.) I spent around 2 hours working on this project.
+
+2.) The most rewarding challenge was figuring out ways to keep my code DRY.
+
+3.) I think I could take some time to consider semantics before submitting my
+projects. I am often just excited to have my code running and turn it in
+immediately without really reading it over again.
