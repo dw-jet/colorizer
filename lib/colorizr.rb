@@ -6,7 +6,11 @@ class String
             { name: :white, code: 97 }].freeze
 
   def self.colors
-    COLORS
+    color_names = []
+    COLORS.each do |color|
+      color_names << color[:name]
+    end
+    color_names
   end
 
   def self.sample_colors
@@ -15,16 +19,6 @@ class String
       puts "This is " + "#{color[:name]}".send(color[:name])
     end
   end
-
-  # def self.create_colors
-  #   COLORS.each do |color|
-  #     self.class_eval %Q{
-  #       def #{color[:color]}
-  #         "\e[#{color[:code]}m" + self + "\e[0m"
-  #       end
-  #     }
-  #   end
-  # end
 
   def self.create_colors
     COLORS.each do |color|
